@@ -1,5 +1,5 @@
-Bootstrap:docker
-From:centos:7
+Bootstrap:shub
+From:ResearchIT/spack-singularity:openmpi
 
 %labels
 MAINTAINER severin@iastate.edu
