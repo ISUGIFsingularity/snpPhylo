@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ singularity exec ISUGIFsingularity-snpPhylo-master.simg ../bin/runSNPphylo.sh
