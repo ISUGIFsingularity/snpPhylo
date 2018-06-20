@@ -1,3 +1,4 @@
 #!/bin/bash
 
- singularity exec ISUGIFsingularity-snpPhylo-master.simg ../bin/runSNPphylo.sh
+export snpPhyloHome="/work/GIF/severin/isugif/snpPhylo"
+singularity exec $snpPhyloHome/SIMG/ISUGIFsingularity-snpPhylo-master-1.0.0.simg $snpPhyloHome/bin/runSNPphylo.sh
